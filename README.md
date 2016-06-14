@@ -21,7 +21,7 @@ metalsmith(__dirname)
   .build();
 ```
 
-## Examlpe
+## Example
 
 ```markdown
 ![img alt](path/to/image.png)
@@ -29,7 +29,7 @@ metalsmith(__dirname)
 [![alt text](http://www.metalsmith.io/)](path/to/image)
 ```
 
-result:
+results in:
 
 ```html
 <img src="path/to/image.png" alt="img alt">
