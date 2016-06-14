@@ -1,0 +1,29 @@
+{
+  "name": "metalsmith-tagcleaner",
+  "description": "Metalsmith plugin to remove paragraph tags from around images.",
+  "author": "Tabea David <info@justonestep.de> (https://justonestep.de/)",
+  "repository": "git://github.com/justonestep/metalsmith-tagcleaner.git",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "metalsmith",
+    "plugin",
+    "markdown"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "assert": "^1.4.1",
+    "metalsmith": "^1.7.0",
+    "metalsmith-markdown": "^0.2.1"
+  }
+}
